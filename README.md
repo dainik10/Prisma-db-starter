@@ -1,3 +1,19 @@
+Here are some of the commands that need to be done to push the temporary data into the db:-
+
+npx prisma generate
+
+npx prisma db push
+
+npx prisma studio
+
+For SQL db i have used the aiven console.
+
+For Postgres i have used neon console. 
+
+U can visit this sites and create a new project from there and copy the database url and copy paste it into the .env file, and you are all set to use the db.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
